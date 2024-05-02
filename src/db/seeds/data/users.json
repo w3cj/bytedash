@@ -1,0 +1,44 @@
+[
+  {
+    "name": "John Smith",
+    "phone": "555-123-4567",
+    "email": "john.smith@example.com",
+    "password": "password",
+    "addresses": [
+      {
+        "street_address": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001"
+      }
+    ]
+  },
+  {
+    "name": "Jane Doe",
+    "phone": "555-234-5678",
+    "email": "jane.doe@example.com",
+    "password": "password",
+    "addresses": [
+      {
+        "street_address": "123 Oak Street",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90001"
+      }
+    ]
+  },
+  {
+    "name": "Michael Jones",
+    "phone": "555-345-6789",
+    "email": "michael.jones@example.com",
+    "password": "password",
+    "addresses": [
+      {
+        "street_address": "123 Elm Street",
+        "city": "Seattle",
+        "state": "WA",
+        "zipCode": "98101"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1714657936275,
+      "tag": "0000_dry_wildside",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1714659220961,
+      "tag": "0001_living_obadiah_stane",
+      "breakpoints": true
+    }
+  ]
+}

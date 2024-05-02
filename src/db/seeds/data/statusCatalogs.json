@@ -1,0 +1,23 @@
+[
+  {
+    "name": "New"
+  },
+  {
+    "name": "Confirmed"
+  },
+  {
+    "name": "Preparing"
+  },
+  {
+    "name": "ReadyForDelivery"
+  },
+  {
+    "name": "OutForDelivery"
+  },
+  {
+    "name": "Delivered"
+  },
+  {
+    "name": "Canceled"
+  }
+]

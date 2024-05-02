@@ -1,0 +1,39 @@
+{
+  "name": "bytedash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev:api": "tsx --watch src/api/index.ts",
+    "dev:client": "tsx src/client/index.ts",
+    "build": "tsc && tsc-alias",
+    "db:generate": "drizzle-kit generate:pg",
+    "db:migrate": "cross-env DB_MIGRATING=true tsx src/db/migrate.ts",
+    "db:seed": "cross-env DB_SEEDING=true tsx src/db/seed.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "drizzle-kit": "^0.20.17",
+    "tsc": "^2.0.4",
+    "tsc-alias": "^1.8.8",
+    "tsx": "^4.7.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "argon2": "^0.40.1",
+    "dotenv": "^16.4.5",
+    "dotenv-expand": "^11.0.6",
+    "drizzle-orm": "^0.30.9",
+    "drizzle-zod": "^0.5.1",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "postgres": "^3.4.4",
+    "typed-rpc": "^5.0.2"
+  }
+}

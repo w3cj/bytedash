@@ -1,0 +1,1666 @@
+[
+  {
+    "name": "Golden Gate Grill",
+    "streetAddress": "123 Fisherman's Wharf",
+    "zipCode": "94133",
+    "cityName": "San Francisco",
+    "menuItems": [
+      {
+        "name": "Calamari Fritti",
+        "categoryName": "Appetizers",
+        "description": "Lightly battered and fried calamari served with lemon aioli.",
+        "ingredients": "Calamari, batter, lemon aioli",
+        "price": "10.99",
+        "active": true
+      },
+      {
+        "name": "Crab Cakes",
+        "categoryName": "Appetizers",
+        "description": "Lump crab cakes with remoulade sauce and a side salad.",
+        "ingredients": "Crab meat, remoulade sauce, salad",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Cioppino",
+        "categoryName": "Lunch",
+        "description": "San Francisco's signature seafood stew with fish, shellfish, and vegetables in a tomato broth.",
+        "ingredients": "Fish, shellfish, vegetables, tomato broth",
+        "price": "18.99",
+        "active": true
+      },
+      {
+        "name": "California Club Sandwich",
+        "categoryName": "Lunch",
+        "description": "Triple-decker sandwich with turkey, bacon, avocado, lettuce, tomato, and mayonnaise on toasted sourdough bread.",
+        "ingredients": "Turkey, bacon, avocado, lettuce, tomato, mayonnaise, sourdough bread",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Grilled Salmon with Asparagus",
+        "categoryName": "Dinner",
+        "description": "Grilled salmon fillet served with roasted asparagus and lemon butter sauce.",
+        "ingredients": "Salmon fillet, asparagus, lemon butter sauce",
+        "price": "24.99",
+        "active": true
+      },
+      {
+        "name": "Filet Mignon",
+        "categoryName": "Dinner",
+        "description": "Tender filet mignon steak with mashed potatoes and seasonal vegetables.",
+        "ingredients": "Filet mignon steak, mashed potatoes, seasonal vegetables",
+        "price": "32.99",
+        "active": true
+      },
+      {
+        "name": "Golden Gate Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with grilled chicken, avocado, cherry tomatoes, candied walnuts, and balsamic vinaigrette.",
+        "ingredients": "Mixed greens, grilled chicken, avocado, cherry tomatoes, candied walnuts, balsamic vinaigrette",
+        "price": "15.99",
+        "active": true
+      },
+      {
+        "name": "Asian Chicken Salad",
+        "categoryName": "Salads",
+        "description": "Shredded chicken breast with mixed greens, mandarin oranges, almonds, wonton strips, and sesame ginger dressing.",
+        "ingredients": "Chicken breast, mixed greens, mandarin oranges, almonds, wonton strips, sesame ginger dressing",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Garlic Mashed Potatoes",
+        "categoryName": "Sides",
+        "description": "Creamy mashed potatoes with garlic and butter.",
+        "ingredients": "Potatoes, garlic, butter",
+        "price": "5.99",
+        "active": true
+      },
+      {
+        "name": "Roasted Seasonal Vegetables",
+        "categoryName": "Sides",
+        "description": "Assortment of roasted seasonal vegetables.",
+        "ingredients": "Seasonal vegetables",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Key Lime Pie",
+        "categoryName": "Desserts",
+        "description": "Tangy key lime pie with a graham cracker crust.",
+        "ingredients": "Key lime juice, graham crackers",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "categoryName": "Desserts",
+        "description": "Warm chocolate cake with a molten chocolate center, served with vanilla ice cream.",
+        "ingredients": "Chocolate cake, vanilla ice cream",
+        "price": "9.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Bay Bistro",
+    "streetAddress": "456 Embarcadero Blvd",
+    "zipCode": "94105",
+    "cityName": "San Francisco",
+    "menuItems": [
+      {
+        "name": "Oysters on the Half Shell",
+        "categoryName": "Appetizers",
+        "description": "Freshly shucked oysters with mignonette sauce and lemon wedges.",
+        "ingredients": "Oysters, mignonette sauce, lemon",
+        "price": "16.99",
+        "active": true
+      },
+      {
+        "name": "Tuna Tartare",
+        "categoryName": "Appetizers",
+        "description": "Diced ahi tuna with avocado, sesame seeds, and a soy-ginger glaze.",
+        "ingredients": "Ahi tuna, avocado, sesame seeds, soy-ginger glaze",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Lobster Roll",
+        "categoryName": "Lunch",
+        "description": "Chunks of fresh lobster meat tossed in a light dressing and served on a toasted brioche roll.",
+        "ingredients": "Lobster meat, brioche roll, dressing",
+        "price": "22.99",
+        "active": true
+      },
+      {
+        "name": "Fish & Chips",
+        "categoryName": "Lunch",
+        "description": "Beer-battered fish fillets served with crispy fries and tartar sauce.",
+        "ingredients": "Fish fillets, beer batter, fries, tartar sauce",
+        "price": "16.99",
+        "active": true
+      },
+      {
+        "name": "Pan-Seared Scallops",
+        "categoryName": "Dinner",
+        "description": "Perfectly seared scallops served with a creamy risotto and seasonal vegetables.",
+        "ingredients": "Scallops, risotto, seasonal vegetables",
+        "price": "28.99",
+        "active": true
+      },
+      {
+        "name": "Bouillabaisse",
+        "categoryName": "Dinner",
+        "description": "A classic French seafood stew with a variety of fish, shellfish, and vegetables in a saffron-tomato broth.",
+        "ingredients": "Fish, shellfish, vegetables, saffron-tomato broth",
+        "price": "34.99",
+        "active": true
+      },
+      {
+        "name": "Bay Bistro Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with grilled shrimp, avocado, cherry tomatoes, cucumbers, and a lemon vinaigrette.",
+        "ingredients": "Mixed greens, grilled shrimp, avocado, cherry tomatoes, cucumbers, lemon vinaigrette",
+        "price": "17.99",
+        "active": true
+      },
+      {
+        "name": "Spinach Salad with Warm Bacon Dressing",
+        "categoryName": "Salads",
+        "description": "Fresh spinach with crispy bacon, hard-boiled eggs, red onions, and a warm bacon dressing.",
+        "ingredients": "Spinach, bacon, hard-boiled eggs, red onions, bacon dressing",
+        "price": "15.99",
+        "active": true
+      },
+      {
+        "name": "Truffle Fries",
+        "categoryName": "Sides",
+        "description": "Crispy fries tossed with truffle oil and parmesan cheese.",
+        "ingredients": "Fries, truffle oil, parmesan cheese",
+        "price": "7.99",
+        "active": true
+      },
+      {
+        "name": "Grilled Asparagus",
+        "categoryName": "Sides",
+        "description": "Tender grilled asparagus spears with lemon and olive oil.",
+        "ingredients": "Asparagus, lemon, olive oil",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Crème Brûlée",
+        "categoryName": "Desserts",
+        "description": "Rich custard base with a caramelized sugar topping.",
+        "ingredients": "Custard, sugar",
+        "price": "9.99",
+        "active": true
+      },
+      {
+        "name": "Chocolate Mousse Cake",
+        "categoryName": "Desserts",
+        "description": "Decadent chocolate mousse cake with a chocolate ganache glaze.",
+        "ingredients": "Chocolate mousse, chocolate ganache",
+        "price": "10.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Little Italy Trattoria",
+    "streetAddress": "789 North Beach St",
+    "zipCode": "94133",
+    "cityName": "San Francisco",
+    "menuItems": [
+      {
+        "name": "Bruschetta",
+        "categoryName": "Appetizers",
+        "description": "Toasted bread topped with fresh tomatoes, basil, garlic, and olive oil.",
+        "ingredients": "Bread, tomatoes, basil, garlic, olive oil",
+        "price": "7.99",
+        "active": true
+      },
+      {
+        "name": "Arancini",
+        "categoryName": "Appetizers",
+        "description": "Crispy fried risotto balls stuffed with mozzarella cheese and meat sauce.",
+        "ingredients": "Risotto, mozzarella cheese, meat sauce",
+        "price": "9.99",
+        "active": true
+      },
+      {
+        "name": "Lasagna",
+        "categoryName": "Lunch",
+        "description": "Layers of pasta, meat sauce, ricotta cheese, and mozzarella cheese.",
+        "ingredients": "Pasta, meat sauce, ricotta cheese, mozzarella cheese",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Spaghetti Carbonara",
+        "categoryName": "Lunch",
+        "description": "Spaghetti with pancetta, eggs, parmesan cheese, and black pepper.",
+        "ingredients": "Spaghetti, pancetta, eggs, parmesan cheese, black pepper",
+        "price": "15.99",
+        "active": true
+      },
+      {
+        "name": "Osso Buco",
+        "categoryName": "Dinner",
+        "description": "Braised veal shank served with risotto Milanese.",
+        "ingredients": "Veal shank, risotto Milanese",
+        "price": "26.99",
+        "active": true
+      },
+      {
+        "name": "Frutti di Mare",
+        "categoryName": "Dinner",
+        "description": "Linguine with a medley of fresh seafood in a white wine sauce.",
+        "ingredients": "Linguine, seafood, white wine sauce",
+        "price": "28.99",
+        "active": true
+      },
+      {
+        "name": "Caprese Salad",
+        "categoryName": "Salads",
+        "description": "Fresh mozzarella, tomatoes, basil, and balsamic glaze.",
+        "ingredients": "Mozzarella, tomatoes, basil, balsamic glaze",
+        "price": "10.99",
+        "active": true
+      },
+      {
+        "name": "Antipasto Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with cured meats, cheeses, olives, and artichoke hearts.",
+        "ingredients": "Mixed greens, cured meats, cheeses, olives, artichoke hearts",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Polenta",
+        "categoryName": "Sides",
+        "description": "Creamy polenta with parmesan cheese and herbs.",
+        "ingredients": "Polenta, parmesan cheese, herbs",
+        "price": "5.99",
+        "active": true
+      },
+      {
+        "name": "Roasted Broccoli",
+        "categoryName": "Sides",
+        "description": "Roasted broccoli with garlic and olive oil.",
+        "ingredients": "Broccoli, garlic, olive oil",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Cannoli",
+        "categoryName": "Desserts",
+        "description": "Crispy pastry shells filled with sweet ricotta cream and chocolate chips.",
+        "ingredients": "Pastry shells, ricotta cream, chocolate chips",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Panna Cotta",
+        "categoryName": "Desserts",
+        "description": "Smooth and creamy panna cotta with a berry coulis.",
+        "ingredients": "Panna cotta, berry coulis",
+        "price": "7.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Empire Diner",
+    "streetAddress": "345 Broadway Ave",
+    "zipCode": "10007",
+    "cityName": "New York",
+    "menuItems": [
+      {
+        "name": "Onion Rings",
+        "categoryName": "Appetizers",
+        "description": "Thick-cut onion rings with a crispy batter.",
+        "ingredients": "Onions, batter",
+        "price": "5.99",
+        "active": true
+      },
+      {
+        "name": "Chicken Wings",
+        "categoryName": "Appetizers",
+        "description": "Spicy buffalo chicken wings served with celery and blue cheese dressing.",
+        "ingredients": "Chicken wings, buffalo sauce, celery, blue cheese dressing",
+        "price": "10.99",
+        "active": true
+      },
+      {
+        "name": "Reuben Sandwich",
+        "categoryName": "Lunch",
+        "description": "Corned beef, sauerkraut, Swiss cheese, and Thousand Island dressing on rye bread.",
+        "ingredients": "Corned beef, sauerkraut, Swiss cheese, Thousand Island dressing, rye bread",
+        "price": "13.99",
+        "active": true
+      },
+      {
+        "name": "Patty Melt",
+        "categoryName": "Lunch",
+        "description": "Juicy burger patty with grilled onions and Swiss cheese on rye bread.",
+        "ingredients": "Burger patty, grilled onions, Swiss cheese, rye bread",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Meatloaf",
+        "categoryName": "Dinner",
+        "description": "Classic meatloaf with mashed potatoes and gravy.",
+        "ingredients": "Meatloaf, mashed potatoes, gravy",
+        "price": "16.99",
+        "active": true
+      },
+      {
+        "name": "Roasted Chicken",
+        "categoryName": "Dinner",
+        "description": "Half roasted chicken with roasted vegetables and herb gravy.",
+        "ingredients": "Chicken, roasted vegetables, herb gravy",
+        "price": "18.99",
+        "active": true
+      },
+      {
+        "name": "Cobb Salad",
+        "categoryName": "Salads",
+        "description": "Grilled chicken, bacon, avocado, hard-boiled eggs, tomatoes, and blue cheese dressing.",
+        "ingredients": "Grilled chicken, bacon, avocado, hard-boiled eggs, tomatoes, blue cheese dressing",
+        "price": "15.99",
+        "active": true
+      },
+      {
+        "name": "Chef Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with turkey, ham, Swiss cheese, tomatoes, cucumbers, and your choice of dressing.",
+        "ingredients": "Mixed greens, turkey, ham, Swiss cheese, tomatoes, cucumbers, dressing",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Mac & Cheese",
+        "categoryName": "Sides",
+        "description": "Creamy macaroni and cheese.",
+        "ingredients": "Macaroni, cheese",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Coleslaw",
+        "categoryName": "Sides",
+        "description": "Classic coleslaw with shredded cabbage and carrots.",
+        "ingredients": "Cabbage, carrots",
+        "price": "4.99",
+        "active": true
+      },
+      {
+        "name": "Apple Pie",
+        "categoryName": "Desserts",
+        "description": "Warm apple pie with a flaky crust, served with vanilla ice cream.",
+        "ingredients": "Apples, pie crust, vanilla ice cream",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Chocolate Chip Cookie Skillet",
+        "categoryName": "Desserts",
+        "description": "Warm chocolate chip cookie baked in a skillet, served with vanilla ice cream.",
+        "ingredients": "Chocolate chip cookie dough, vanilla ice cream",
+        "price": "9.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Big Apple Pizza",
+    "streetAddress": "678 Times Square",
+    "zipCode": "10036",
+    "cityName": "New York",
+    "menuItems": [
+      {
+        "name": "Mozzarella Sticks",
+        "categoryName": "Appetizers",
+        "description": "Crispy golden-fried mozzarella sticks served with marinara sauce.",
+        "ingredients": "Mozzarella cheese, bread crumbs, marinara sauce",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Garlic Knots",
+        "categoryName": "Appetizers",
+        "description": "Freshly baked garlic knots topped with melted butter, garlic, and parsley.",
+        "ingredients": "Pizza dough, butter, garlic, parsley",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Pizza Slice & Soda Combo",
+        "categoryName": "Lunch",
+        "description": "One slice of cheese pizza with a fountain soda of your choice.",
+        "ingredients": "Pizza dough, tomato sauce, mozzarella cheese, soda",
+        "price": "10.99",
+        "active": true
+      },
+      {
+        "name": "Meatball Parm Hero",
+        "categoryName": "Lunch",
+        "description": "Meatball parm hero on a fresh roll with marinara sauce and melted mozzarella.",
+        "ingredients": "Meatballs, marinara sauce, mozzarella cheese, bread roll",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Big Apple Special Pizza",
+        "categoryName": "Dinner",
+        "description": "Our signature pizza with pepperoni, sausage, mushrooms, onions, and peppers.",
+        "ingredients": "Pizza dough, tomato sauce, mozzarella cheese, pepperoni, sausage, mushrooms, onions, peppers",
+        "price": "18.99",
+        "active": true
+      },
+      {
+        "name": "Chicken Alfredo Pizza",
+        "categoryName": "Dinner",
+        "description": "Creamy Alfredo sauce base topped with grilled chicken, mozzarella, and parmesan cheese.",
+        "ingredients": "Pizza dough, Alfredo sauce, grilled chicken, mozzarella cheese, parmesan cheese",
+        "price": "17.99",
+        "active": true
+      },
+      {
+        "name": "Caesar Salad",
+        "categoryName": "Salads",
+        "description": "Classic Caesar salad with romaine lettuce, parmesan cheese, croutons, and Caesar dressing.",
+        "ingredients": "Romaine lettuce, parmesan cheese, croutons, Caesar dressing",
+        "price": "9.99",
+        "active": true
+      },
+      {
+        "name": "Greek Salad",
+        "categoryName": "Salads",
+        "description": "Fresh Greek salad with mixed greens, tomatoes, cucumbers, red onions, olives, feta cheese, and vinaigrette dressing.",
+        "ingredients": "Mixed greens, tomatoes, cucumbers, red onions, olives, feta cheese, vinaigrette dressing",
+        "price": "10.99",
+        "active": true
+      },
+      {
+        "name": "French Fries",
+        "categoryName": "Sides",
+        "description": "Crispy golden french fries.",
+        "ingredients": "Potatoes",
+        "price": "4.99",
+        "active": true
+      },
+      {
+        "name": "Onion Rings",
+        "categoryName": "Sides",
+        "description": "Thick-cut onion rings with a crispy batter.",
+        "ingredients": "Onions, batter",
+        "price": "5.99",
+        "active": true
+      },
+      {
+        "name": "Tiramisu",
+        "categoryName": "Desserts",
+        "description": "Classic Italian tiramisu with layers of espresso-soaked ladyfingers, mascarpone cream, and cocoa powder.",
+        "ingredients": "Ladyfingers, espresso, mascarpone cheese, cocoa powder",
+        "price": "7.99",
+        "active": true
+      },
+      {
+        "name": "Cheesecake",
+        "categoryName": "Desserts",
+        "description": "Rich and creamy New York-style cheesecake.",
+        "ingredients": "Cream cheese, graham crackers, sugar",
+        "price": "8.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Central Park Cafe",
+    "streetAddress": "901 Fifth Avenue",
+    "zipCode": "10028",
+    "cityName": "New York",
+    "menuItems": [
+      {
+        "name": "Hummus Platter",
+        "categoryName": "Appetizers",
+        "description": "Creamy hummus served with pita bread, olives, and vegetables.",
+        "ingredients": "Hummus, pita bread, olives, vegetables",
+        "price": "9.99",
+        "active": true
+      },
+      {
+        "name": "Spinach and Artichoke Dip",
+        "categoryName": "Appetizers",
+        "description": "Warm and cheesy spinach and artichoke dip served with tortilla chips.",
+        "ingredients": "Spinach, artichoke hearts, cheese, tortilla chips",
+        "price": "10.99",
+        "active": true
+      },
+      {
+        "name": "Quinoa Salad Bowl",
+        "categoryName": "Lunch",
+        "description": "Healthy quinoa salad with mixed greens, avocado, grilled chicken, and a lemon vinaigrette.",
+        "ingredients": "Quinoa, mixed greens, avocado, grilled chicken, lemon vinaigrette",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Turkey Pesto Panini",
+        "categoryName": "Lunch",
+        "description": "Grilled panini with roasted turkey, pesto, mozzarella cheese, and roasted peppers.",
+        "ingredients": "Roasted turkey, pesto, mozzarella cheese, roasted peppers, bread",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Pasta Primavera",
+        "categoryName": "Dinner",
+        "description": "Pasta tossed with seasonal vegetables and a light garlic sauce.",
+        "ingredients": "Pasta, seasonal vegetables, garlic sauce",
+        "price": "18.99",
+        "active": true
+      },
+      {
+        "name": "Salmon with Lemon Dill Sauce",
+        "categoryName": "Dinner",
+        "description": "Grilled salmon fillet with a creamy lemon dill sauce and roasted potatoes.",
+        "ingredients": "Salmon fillet, lemon dill sauce, roasted potatoes",
+        "price": "25.99",
+        "active": true
+      },
+      {
+        "name": "Kale Salad with Quinoa and Cranberries",
+        "categoryName": "Salads",
+        "description": "Massaged kale with quinoa, dried cranberries, almonds, and a lemon vinaigrette.",
+        "ingredients": "Kale, quinoa, dried cranberries, almonds, lemon vinaigrette",
+        "price": "13.99",
+        "active": true
+      },
+      {
+        "name": "Mediterranean Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with cucumbers, tomatoes, red onions, olives, feta cheese, and a Greek vinaigrette.",
+        "ingredients": "Mixed greens, cucumbers, tomatoes, red onions, olives, feta cheese, Greek vinaigrette",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Sweet Potato Fries",
+        "categoryName": "Sides",
+        "description": "Crispy sweet potato fries.",
+        "ingredients": "Sweet potatoes",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Fruit Salad",
+        "categoryName": "Sides",
+        "description": "Fresh seasonal fruit salad.",
+        "ingredients": "Seasonal fruits",
+        "price": "5.99",
+        "active": true
+      },
+      {
+        "name": "Carrot Cake",
+        "categoryName": "Desserts",
+        "description": "Moist carrot cake with cream cheese frosting.",
+        "ingredients": "Carrot cake, cream cheese frosting",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Chocolate Brownie",
+        "categoryName": "Desserts",
+        "description": "Rich chocolate brownie with chocolate chips.",
+        "ingredients": "Chocolate brownie, chocolate chips",
+        "price": "7.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Emerald City Eats",
+    "streetAddress": "111 Pike Place Market",
+    "zipCode": "98101",
+    "cityName": "Seattle",
+    "menuItems": [
+      {
+        "name": "Dungeness Crab Cakes",
+        "categoryName": "Appetizers",
+        "description": "Crispy Dungeness crab cakes with a lemon-dill aioli.",
+        "ingredients": "Dungeness crab, lemon-dill aioli",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Smoked Salmon Dip",
+        "categoryName": "Appetizers",
+        "description": "Creamy smoked salmon dip served with crackers and vegetables.",
+        "ingredients": "Smoked salmon, cream cheese, crackers, vegetables",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Seafood Chowder",
+        "categoryName": "Lunch",
+        "description": "Rich and creamy seafood chowder with fresh fish, shellfish, and vegetables.",
+        "ingredients": "Fish, shellfish, vegetables, cream",
+        "price": "16.99",
+        "active": true
+      },
+      {
+        "name": "Black Bean Burger",
+        "categoryName": "Lunch",
+        "description": "Homemade black bean burger on a whole wheat bun with avocado and chipotle mayo.",
+        "ingredients": "Black beans, whole wheat bun, avocado, chipotle mayo",
+        "price": "13.99",
+        "active": true
+      },
+      {
+        "name": "Grilled King Salmon",
+        "categoryName": "Dinner",
+        "description": "Wild-caught king salmon grilled to perfection with roasted vegetables and a lemon-herb sauce.",
+        "ingredients": "King salmon, roasted vegetables, lemon-herb sauce",
+        "price": "28.99",
+        "active": true
+      },
+      {
+        "name": "Steak Frites",
+        "categoryName": "Dinner",
+        "description": "Grilled hanger steak with crispy fries and a chimichurri sauce.",
+        "ingredients": "Hanger steak, fries, chimichurri sauce",
+        "price": "26.99",
+        "active": true
+      },
+      {
+        "name": "Northwest Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with smoked salmon, apples, walnuts, blue cheese, and a honey mustard vinaigrette.",
+        "ingredients": "Mixed greens, smoked salmon, apples, walnuts, blue cheese, honey mustard vinaigrette",
+        "price": "15.99",
+        "active": true
+      },
+      {
+        "name": "Quinoa Tabbouleh Salad",
+        "categoryName": "Salads",
+        "description": "Quinoa with fresh herbs, tomatoes, cucumbers, and a lemon vinaigrette.",
+        "ingredients": "Quinoa, herbs, tomatoes, cucumbers, lemon vinaigrette",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Roasted Brussels Sprouts",
+        "categoryName": "Sides",
+        "description": "Roasted Brussels sprouts with bacon and balsamic glaze.",
+        "ingredients": "Brussels sprouts, bacon, balsamic glaze",
+        "price": "7.99",
+        "active": true
+      },
+      {
+        "name": "Garlic Parmesan Fries",
+        "categoryName": "Sides",
+        "description": "Crispy fries tossed with garlic and parmesan cheese.",
+        "ingredients": "Fries, garlic, parmesan cheese",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Marionberry Crisp",
+        "categoryName": "Desserts",
+        "description": "Warm marionberry crisp with a scoop of vanilla ice cream.",
+        "ingredients": "Marionberries, crisp topping, vanilla ice cream",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Chocolate Peanut Butter Pie",
+        "categoryName": "Desserts",
+        "description": "Rich chocolate peanut butter pie with a chocolate cookie crust.",
+        "ingredients": "Chocolate, peanut butter, chocolate cookie crust",
+        "price": "9.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Space Needle Noodles",
+    "streetAddress": "222 Queen Anne Ave",
+    "zipCode": "98109",
+    "cityName": "Seattle",
+    "menuItems": [
+      {
+        "name": "Pot Stickers",
+        "categoryName": "Appetizers",
+        "description": "Pan-fried dumplings filled with pork and vegetables, served with a dipping sauce.",
+        "ingredients": "Dumplings, pork, vegetables, dipping sauce",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Edamame",
+        "categoryName": "Appetizers",
+        "description": "Steamed edamame pods with sea salt.",
+        "ingredients": "Edamame, sea salt",
+        "price": "5.99",
+        "active": true
+      },
+      {
+        "name": "Pad Thai",
+        "categoryName": "Lunch",
+        "description": "Classic Pad Thai with rice noodles, chicken, shrimp, tofu, bean sprouts, and peanuts.",
+        "ingredients": "Rice noodles, chicken, shrimp, tofu, bean sprouts, peanuts",
+        "price": "13.99",
+        "active": true
+      },
+      {
+        "name": "Spicy Chicken Ramen",
+        "categoryName": "Lunch",
+        "description": "Ramen noodles in a spicy broth with chicken, vegetables, and a soft-boiled egg.",
+        "ingredients": "Ramen noodles, spicy broth, chicken, vegetables, egg",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Pho",
+        "categoryName": "Dinner",
+        "description": "Vietnamese noodle soup with beef or chicken, rice noodles, and fresh herbs.",
+        "ingredients": "Beef or chicken, rice noodles, herbs, broth",
+        "price": "15.99",
+        "active": true
+      },
+      {
+        "name": "Kung Pao Chicken",
+        "categoryName": "Dinner",
+        "description": "Stir-fried chicken with peanuts, vegetables, and a spicy sauce.",
+        "ingredients": "Chicken, peanuts, vegetables, spicy sauce",
+        "price": "16.99",
+        "active": true
+      },
+      {
+        "name": "Asian Noodle Salad",
+        "categoryName": "Salads",
+        "description": "Cold noodle salad with mixed greens, vegetables, and a sesame dressing.",
+        "ingredients": "Noodles, mixed greens, vegetables, sesame dressing",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Seaweed Salad",
+        "categoryName": "Salads",
+        "description": "Marinated seaweed salad with sesame seeds.",
+        "ingredients": "Seaweed, sesame seeds",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Steamed Rice",
+        "categoryName": "Sides",
+        "description": "Steamed white rice.",
+        "ingredients": "Rice",
+        "price": "2.99",
+        "active": true
+      },
+      {
+        "name": "Vegetable Spring Rolls",
+        "categoryName": "Sides",
+        "description": "Crispy spring rolls filled with vegetables.",
+        "ingredients": "Vegetables, spring roll wrappers",
+        "price": "5.99",
+        "active": true
+      },
+      {
+        "name": "Mochi Ice Cream",
+        "categoryName": "Desserts",
+        "description": "Sweet rice cakes filled with ice cream.",
+        "ingredients": "Rice cakes, ice cream",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Mango Sticky Rice",
+        "categoryName": "Desserts",
+        "description": "Sweet sticky rice with fresh mango and coconut milk.",
+        "ingredients": "Sticky rice, mango, coconut milk",
+        "price": "7.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Puget Sound Pizza",
+    "streetAddress": "333 Alki Beach",
+    "zipCode": "98116",
+    "cityName": "Seattle",
+    "menuItems": [
+      {
+        "name": "Garlic Breadsticks",
+        "categoryName": "Appetizers",
+        "description": "Warm, soft breadsticks topped with garlic and parmesan cheese.",
+        "ingredients": "Breadsticks, garlic, parmesan cheese",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Fried Ravioli",
+        "categoryName": "Appetizers",
+        "description": "Crispy fried ravioli filled with cheese and served with marinara sauce.",
+        "ingredients": "Ravioli, cheese, marinara sauce",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Pizza by the Slice",
+        "categoryName": "Lunch",
+        "description": "Choose from a variety of pizza slices with different toppings.",
+        "ingredients": "Pizza dough, tomato sauce, cheese, toppings",
+        "price": "4.99",
+        "active": true
+      },
+      {
+        "name": "Calzone",
+        "categoryName": "Lunch",
+        "description": "Folded pizza dough filled with ricotta cheese, mozzarella cheese, and your choice of toppings.",
+        "ingredients": "Pizza dough, ricotta cheese, mozzarella cheese, toppings",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Puget Sound Special Pizza",
+        "categoryName": "Dinner",
+        "description": "Our signature pizza with pepperoni, sausage, mushrooms, onions, green peppers, and black olives.",
+        "ingredients": "Pizza dough, tomato sauce, cheese, pepperoni, sausage, mushrooms, onions, green peppers, black olives",
+        "price": "19.99",
+        "active": true
+      },
+      {
+        "name": "Hawaiian Pizza",
+        "categoryName": "Dinner",
+        "description": "Pizza with ham, pineapple, and mozzarella cheese.",
+        "ingredients": "Pizza dough, tomato sauce, cheese, ham, pineapple",
+        "price": "18.99",
+        "active": true
+      },
+      {
+        "name": "Antipasto Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with salami, pepperoni, provolone cheese, pepperoncini, olives, and Italian dressing.",
+        "ingredients": "Mixed greens, salami, pepperoni, provolone cheese, pepperoncini, olives, Italian dressing",
+        "price": "13.99",
+        "active": true
+      },
+      {
+        "name": "Garden Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with tomatoes, cucumbers, carrots, and your choice of dressing.",
+        "ingredients": "Mixed greens, tomatoes, cucumbers, carrots, dressing",
+        "price": "10.99",
+        "active": true
+      },
+      {
+        "name": "Chicken Strips",
+        "categoryName": "Sides",
+        "description": "Crispy chicken strips served with your choice of dipping sauce.",
+        "ingredients": "Chicken strips, dipping sauce",
+        "price": "7.99",
+        "active": true
+      },
+      {
+        "name": "Jalapeno Poppers",
+        "categoryName": "Sides",
+        "description": "Breaded jalapeno peppers filled with cream cheese and served with ranch dressing.",
+        "ingredients": "Jalapeno peppers, cream cheese, ranch dressing",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Tiramisu",
+        "categoryName": "Desserts",
+        "description": "Classic Italian tiramisu with layers of espresso-soaked ladyfingers, mascarpone cream, and cocoa powder.",
+        "ingredients": "Ladyfingers, espresso, mascarpone cheese, cocoa powder",
+        "price": "7.99",
+        "active": true
+      },
+      {
+        "name": "Cheesecake",
+        "categoryName": "Desserts",
+        "description": "Rich and creamy New York-style cheesecake.",
+        "ingredients": "Cream cheese, graham crackers, sugar",
+        "price": "8.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Rocky Mountain Grill",
+    "streetAddress": "444 16th Street Mall",
+    "zipCode": "80202",
+    "cityName": "Denver",
+    "menuItems": [
+      {
+        "name": "Elk Sausage & Cheese Plate",
+        "categoryName": "Appetizers",
+        "description": "Locally-sourced elk sausage, assorted cheeses, and crackers.",
+        "ingredients": "Elk sausage, cheese, crackers",
+        "price": "13.99",
+        "active": true
+      },
+      {
+        "name": "Rocky Mountain Nachos",
+        "categoryName": "Appetizers",
+        "description": "Tortilla chips piled high with melted cheese, black beans, pico de gallo, jalapenos, and your choice of chicken or beef.",
+        "ingredients": "Tortilla chips, cheese, black beans, pico de gallo, jalapenos, chicken or beef",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Bison Burger",
+        "categoryName": "Lunch",
+        "description": "Lean bison burger on a brioche bun with lettuce, tomato, onion, and your choice of cheese.",
+        "ingredients": "Bison patty, brioche bun, lettuce, tomato, onion, cheese",
+        "price": "15.99",
+        "active": true
+      },
+      {
+        "name": "Grilled Chicken Sandwich",
+        "categoryName": "Lunch",
+        "description": "Marinated grilled chicken breast on a ciabatta roll with avocado, bacon, lettuce, tomato, and chipotle mayo.",
+        "ingredients": "Grilled chicken breast, ciabatta roll, avocado, bacon, lettuce, tomato, chipotle mayo",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Grilled Elk Chops",
+        "categoryName": "Dinner",
+        "description": "Tender elk chops grilled to perfection and served with mashed potatoes and seasonal vegetables.",
+        "ingredients": "Elk chops, mashed potatoes, seasonal vegetables",
+        "price": "29.99",
+        "active": true
+      },
+      {
+        "name": "Trout Almondine",
+        "categoryName": "Dinner",
+        "description": "Pan-fried trout fillet topped with toasted almonds and lemon butter sauce.",
+        "ingredients": "Trout fillet, almonds, lemon butter sauce",
+        "price": "24.99",
+        "active": true
+      },
+      {
+        "name": "Southwest Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with grilled chicken or steak, black beans, corn, avocado, tomatoes, tortilla strips, and a cilantro-lime vinaigrette.",
+        "ingredients": "Mixed greens, grilled chicken or steak, black beans, corn, avocado, tomatoes, tortilla strips, cilantro-lime vinaigrette",
+        "price": "16.99",
+        "active": true
+      },
+      {
+        "name": "Spinach Salad with Strawberries & Goat Cheese",
+        "categoryName": "Salads",
+        "description": "Fresh spinach with strawberries, goat cheese, candied pecans, and a balsamic vinaigrette.",
+        "ingredients": "Spinach, strawberries, goat cheese, candied pecans, balsamic vinaigrette",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Green Chili Mac & Cheese",
+        "categoryName": "Sides",
+        "description": "Creamy mac & cheese with a kick of green chili.",
+        "ingredients": "Macaroni, cheese, green chili",
+        "price": "7.99",
+        "active": true
+      },
+      {
+        "name": "Cornbread",
+        "categoryName": "Sides",
+        "description": "Sweet and savory cornbread.",
+        "ingredients": "Cornbread",
+        "price": "4.99",
+        "active": true
+      },
+      {
+        "name": "Apple Cobbler",
+        "categoryName": "Desserts",
+        "description": "Warm apple cobbler with a cinnamon crumble topping and vanilla ice cream.",
+        "ingredients": "Apples, cinnamon crumble, vanilla ice cream",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Chocolate Chip Cookie Pie",
+        "categoryName": "Desserts",
+        "description": "Warm chocolate chip cookie baked in a pie crust, served with vanilla ice cream.",
+        "ingredients": "Chocolate chip cookie dough, pie crust, vanilla ice cream",
+        "price": "9.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Mile High Burger",
+    "streetAddress": "555 Larimer Square",
+    "zipCode": "80202",
+    "cityName": "Denver",
+    "menuItems": [
+      {
+        "name": "Pretzel Bites",
+        "categoryName": "Appetizers",
+        "description": "Warm and soft pretzel bites served with beer cheese sauce.",
+        "ingredients": "Pretzel bites, beer cheese sauce",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Loaded Potato Skins",
+        "categoryName": "Appetizers",
+        "description": "Crispy potato skins filled with cheddar cheese, bacon, and sour cream.",
+        "ingredients": "Potato skins, cheddar cheese, bacon, sour cream",
+        "price": "9.99",
+        "active": true
+      },
+      {
+        "name": "Mile High Burger",
+        "categoryName": "Lunch",
+        "description": "Our signature burger with two juicy patties, American cheese, lettuce, tomato, onion, and pickles on a brioche bun.",
+        "ingredients": "Burger patties, cheese, lettuce, tomato, onion, pickles, brioche bun",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Chicken Sandwich",
+        "categoryName": "Lunch",
+        "description": "Crispy chicken breast on a brioche bun with lettuce, tomato, and honey mustard.",
+        "ingredients": "Chicken breast, brioche bun, lettuce, tomato, honey mustard",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Prime Rib",
+        "categoryName": "Dinner",
+        "description": "Slow-roasted prime rib served with mashed potatoes, Yorkshire pudding, and horseradish sauce.",
+        "ingredients": "Prime rib, mashed potatoes, Yorkshire pudding, horseradish sauce",
+        "price": "29.99",
+        "active": true
+      },
+      {
+        "name": "Lobster Roll",
+        "categoryName": "Dinner",
+        "description": "Fresh Maine lobster meat tossed in a light dressing and served on a toasted brioche roll.",
+        "ingredients": "Lobster meat, brioche roll, dressing",
+        "price": "26.99",
+        "active": true
+      },
+      {
+        "name": "Cobb Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with grilled chicken, bacon, avocado, hard-boiled eggs, tomatoes, and blue cheese dressing.",
+        "ingredients": "Mixed greens, grilled chicken, bacon, avocado, hard-boiled eggs, tomatoes, blue cheese dressing",
+        "price": "15.99",
+        "active": true
+      },
+      {
+        "name": "Caesar Salad",
+        "categoryName": "Salads",
+        "description": "Crisp romaine lettuce with Parmesan cheese, croutons, and Caesar dressing.",
+        "ingredients": "Romaine lettuce, Parmesan cheese, croutons, Caesar dressing",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Onion Rings",
+        "categoryName": "Sides",
+        "description": "Crispy onion rings served with ranch dressing.",
+        "ingredients": "Onions, batter, ranch dressing",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "French Fries",
+        "categoryName": "Sides",
+        "description": "Classic French fries served with your choice of dipping sauce.",
+        "ingredients": "Potatoes, dipping sauce",
+        "price": "4.99",
+        "active": true
+      },
+      {
+        "name": "Apple Pie",
+        "categoryName": "Desserts",
+        "description": "Warm apple pie with a flaky crust, served with vanilla ice cream.",
+        "ingredients": "Apples, pie crust, vanilla ice cream",
+        "price": "7.99",
+        "active": true
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "categoryName": "Desserts",
+        "description": "Rich chocolate lava cake with a molten chocolate center, served with vanilla ice cream.",
+        "ingredients": "Chocolate cake, chocolate sauce, vanilla ice cream",
+        "price": "8.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Coors Field Cafe",
+    "streetAddress": "666 Blake Street",
+    "zipCode": "80205",
+    "cityName": "Denver",
+    "menuItems": [
+      {
+        "name": "Nacho Supreme",
+        "categoryName": "Appetizers",
+        "description": "Tortilla chips piled high with cheese, ground beef, black beans, pico de gallo, sour cream, and guacamole.",
+        "ingredients": "Tortilla chips, cheese, ground beef, black beans, pico de gallo, sour cream, guacamole",
+        "price": "9.99",
+        "active": true
+      },
+      {
+        "name": "Rocky Mountain Quesadilla",
+        "categoryName": "Appetizers",
+        "description": "Grilled quesadilla filled with shredded chicken, roasted peppers, onions, and melted cheese.",
+        "ingredients": "Quesadilla, chicken, roasted peppers, onions, cheese",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Coors Field Burger",
+        "categoryName": "Lunch",
+        "description": "Half-pound burger topped with cheddar cheese, bacon, lettuce, tomato, and onion on a brioche bun.",
+        "ingredients": "Burger patty, cheddar cheese, bacon, lettuce, tomato, onion, brioche bun",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Grilled Chicken Sandwich",
+        "categoryName": "Lunch",
+        "description": "Marinated grilled chicken breast on a ciabatta roll with avocado, bacon, lettuce, tomato, and chipotle mayo.",
+        "ingredients": "Grilled chicken breast, ciabatta roll, avocado, bacon, lettuce, tomato, chipotle mayo",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Prime Rib Dip",
+        "categoryName": "Dinner",
+        "description": "Thinly sliced prime rib on a hoagie roll with melted Swiss cheese and horseradish sauce.",
+        "ingredients": "Prime rib, hoagie roll, Swiss cheese, horseradish sauce",
+        "price": "16.99",
+        "active": true
+      },
+      {
+        "name": "Shepherd's Pie",
+        "categoryName": "Dinner",
+        "description": "Ground beef and vegetables topped with creamy mashed potatoes.",
+        "ingredients": "Ground beef, vegetables, mashed potatoes",
+        "price": "15.99",
+        "active": true
+      },
+      {
+        "name": "House Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with tomatoes, cucumbers, carrots, and your choice of dressing.",
+        "ingredients": "Mixed greens, tomatoes, cucumbers, carrots, dressing",
+        "price": "10.99",
+        "active": true
+      },
+      {
+        "name": "Caesar Salad",
+        "categoryName": "Salads",
+        "description": "Crisp romaine lettuce with Parmesan cheese, croutons, and Caesar dressing.",
+        "ingredients": "Romaine lettuce, Parmesan cheese, croutons, Caesar dressing",
+        "price": "11.99",
+        "active": true
+      },
+      {
+        "name": "French Fries",
+        "categoryName": "Sides",
+        "description": "Crispy French fries served with your choice of dipping sauce.",
+        "ingredients": "Potatoes, dipping sauce",
+        "price": "4.99",
+        "active": true
+      },
+      {
+        "name": "Onion Rings",
+        "categoryName": "Sides",
+        "description": "Golden onion rings served with ranch dressing.",
+        "ingredients": "Onions, batter, ranch dressing",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Apple Crisp",
+        "categoryName": "Desserts",
+        "description": "Warm apple crisp with a cinnamon crumble topping and vanilla ice cream.",
+        "ingredients": "Apples, cinnamon crumble, vanilla ice cream",
+        "price": "7.99",
+        "active": true
+      },
+      {
+        "name": "Cheesecake",
+        "categoryName": "Desserts",
+        "description": "Rich and creamy New York-style cheesecake.",
+        "ingredients": "Cream cheese, graham crackers, sugar",
+        "price": "8.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Hollywood Diner",
+    "streetAddress": "777 Hollywood Blvd",
+    "zipCode": "90028",
+    "cityName": "Los Angeles",
+    "menuItems": [
+      {
+        "name": "Mozzarella Sticks",
+        "categoryName": "Appetizers",
+        "description": "Crispy golden-fried mozzarella sticks served with marinara sauce.",
+        "ingredients": "Mozzarella cheese, bread crumbs, marinara sauce",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Chicken Tenders",
+        "categoryName": "Appetizers",
+        "description": "Crispy chicken tenders served with your choice of dipping sauce.",
+        "ingredients": "Chicken tenders, dipping sauce",
+        "price": "9.99",
+        "active": true
+      },
+      {
+        "name": "Classic Cheeseburger",
+        "categoryName": "Lunch",
+        "description": "Juicy burger patty with American cheese, lettuce, tomato, onion, and pickles on a sesame seed bun.",
+        "ingredients": "Burger patty, American cheese, lettuce, tomato, onion, pickles, sesame seed bun",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "BLT Sandwich",
+        "categoryName": "Lunch",
+        "description": "Crispy bacon, lettuce, tomato, and mayonnaise on toasted white bread.",
+        "ingredients": "Bacon, lettuce, tomato, mayonnaise, white bread",
+        "price": "10.99",
+        "active": true
+      },
+      {
+        "name": "Chicken Fried Steak",
+        "categoryName": "Dinner",
+        "description": "Tenderized steak, breaded and fried, served with mashed potatoes and country gravy.",
+        "ingredients": "Steak, breading, mashed potatoes, country gravy",
+        "price": "16.99",
+        "active": true
+      },
+      {
+        "name": "Pot Roast",
+        "categoryName": "Dinner",
+        "description": "Slow-cooked pot roast with carrots, potatoes, and onions.",
+        "ingredients": "Beef, carrots, potatoes, onions",
+        "price": "18.99",
+        "active": true
+      },
+      {
+        "name": "House Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with tomatoes, cucumbers, carrots, and your choice of dressing.",
+        "ingredients": "Mixed greens, tomatoes, cucumbers, carrots, dressing",
+        "price": "9.99",
+        "active": true
+      },
+      {
+        "name": "Caesar Salad",
+        "categoryName": "Salads",
+        "description": "Crisp romaine lettuce with Parmesan cheese, croutons, and Caesar dressing.",
+        "ingredients": "Romaine lettuce, Parmesan cheese, croutons, Caesar dressing",
+        "price": "10.99",
+        "active": true
+      },
+      {
+        "name": "French Fries",
+        "categoryName": "Sides",
+        "description": "Crispy French fries served with your choice of dipping sauce.",
+        "ingredients": "Potatoes, dipping sauce",
+        "price": "4.99",
+        "active": true
+      },
+      {
+        "name": "Onion Rings",
+        "categoryName": "Sides",
+        "description": "Golden onion rings served with ranch dressing.",
+        "ingredients": "Onions, batter, ranch dressing",
+        "price": "5.99",
+        "active": true
+      },
+      {
+        "name": "Chocolate Cake",
+        "categoryName": "Desserts",
+        "description": "Moist chocolate cake with chocolate frosting.",
+        "ingredients": "Chocolate cake, chocolate frosting",
+        "price": "7.99",
+        "active": true
+      },
+      {
+        "name": "Apple Pie",
+        "categoryName": "Desserts",
+        "description": "Warm apple pie with a flaky crust, served with vanilla ice cream.",
+        "ingredients": "Apples, pie crust, vanilla ice cream",
+        "price": "8.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Santa Monica Seafood",
+    "streetAddress": "888 Ocean Avenue",
+    "zipCode": "90401",
+    "cityName": "Los Angeles",
+    "menuItems": [
+      {
+        "name": "Ceviche",
+        "categoryName": "Appetizers",
+        "description": "Fresh seafood marinated in citrus juices and served with avocado and cilantro.",
+        "ingredients": "Seafood, citrus juices, avocado, cilantro",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Calamari Fritti",
+        "categoryName": "Appetizers",
+        "description": "Lightly fried calamari served with lemon wedges and marinara sauce.",
+        "ingredients": "Calamari, batter, lemon wedges, marinara sauce",
+        "price": "10.99",
+        "active": true
+      },
+      {
+        "name": "Grilled Salmon",
+        "categoryName": "Lunch",
+        "description": "Grilled salmon fillet served with roasted vegetables and lemon butter sauce.",
+        "ingredients": "Salmon fillet, roasted vegetables, lemon butter sauce",
+        "price": "18.99",
+        "active": true
+      },
+      {
+        "name": "Fish and Chips",
+        "categoryName": "Lunch",
+        "description": "Crispy fried fish fillets served with fries and tartar sauce.",
+        "ingredients": "Fish fillets, batter, fries, tartar sauce",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Lobster Roll",
+        "categoryName": "Dinner",
+        "description": "Fresh Maine lobster meat tossed in a light dressing and served on a toasted brioche roll.",
+        "ingredients": "Lobster meat, brioche roll, dressing",
+        "price": "26.99",
+        "active": true
+      },
+      {
+        "name": "Seafood Paella",
+        "categoryName": "Dinner",
+        "description": "Traditional Spanish paella with seafood, rice, and saffron.",
+        "ingredients": "Seafood, rice, saffron",
+        "price": "24.99",
+        "active": true
+      },
+      {
+        "name": "House Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with tomatoes, cucumbers, carrots, and your choice of dressing.",
+        "ingredients": "Mixed greens, tomatoes, cucumbers, carrots, dressing",
+        "price": "9.99",
+        "active": true
+      },
+      {
+        "name": "Caesar Salad",
+        "categoryName": "Salads",
+        "description": "Crisp romaine lettuce with Parmesan cheese, croutons, and Caesar dressing.",
+        "ingredients": "Romaine lettuce, Parmesan cheese, croutons, Caesar dressing",
+        "price": "10.99",
+        "active": true
+      },
+      {
+        "name": "Garlic Mashed Potatoes",
+        "categoryName": "Sides",
+        "description": "Creamy mashed potatoes with garlic and butter.",
+        "ingredients": "Potatoes, garlic, butter",
+        "price": "5.99",
+        "active": true
+      },
+      {
+        "name": "Steamed Broccoli",
+        "categoryName": "Sides",
+        "description": "Fresh steamed broccoli with lemon and butter.",
+        "ingredients": "Broccoli, lemon, butter",
+        "price": "4.99",
+        "active": true
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "categoryName": "Desserts",
+        "description": "Rich chocolate lava cake with a molten chocolate center, served with vanilla ice cream.",
+        "ingredients": "Chocolate cake, chocolate sauce, vanilla ice cream",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Key Lime Pie",
+        "categoryName": "Desserts",
+        "description": "Tangy key lime pie with a graham cracker crust.",
+        "ingredients": "Key lime juice, graham crackers",
+        "price": "7.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Lone Star Steakhouse",
+    "streetAddress": "101 Main Street",
+    "zipCode": "75202",
+    "cityName": "Dallas",
+    "menuItems": [
+      {
+        "name": "Texas Toast",
+        "categoryName": "Appetizers",
+        "description": "Thick-cut Texas toast served with melted butter and honey.",
+        "ingredients": "Texas toast, butter, honey",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Loaded Potato Skins",
+        "categoryName": "Appetizers",
+        "description": "Crispy potato skins filled with cheddar cheese, bacon, and sour cream.",
+        "ingredients": "Potato skins, cheddar cheese, bacon, sour cream",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Ribeye Steak",
+        "categoryName": "Lunch",
+        "description": "Grilled ribeye steak served with your choice of sides.",
+        "ingredients": "Ribeye steak, choice of sides",
+        "price": "24.99",
+        "active": true
+      },
+      {
+        "name": "Chicken Fried Chicken",
+        "categoryName": "Lunch",
+        "description": "Crispy fried chicken served with mashed potatoes and green beans.",
+        "ingredients": "Chicken, breading, mashed potatoes, green beans",
+        "price": "16.99",
+        "active": true
+      },
+      {
+        "name": "Prime Rib",
+        "categoryName": "Dinner",
+        "description": "Slow-roasted prime rib served with mashed potatoes, Yorkshire pudding, and horseradish sauce.",
+        "ingredients": "Prime rib, mashed potatoes, Yorkshire pudding, horseradish sauce",
+        "price": "29.99",
+        "active": true
+      },
+      {
+        "name": "Seafood Platter",
+        "categoryName": "Dinner",
+        "description": "Grilled salmon, shrimp, and scallops served with rice and vegetables.",
+        "ingredients": "Salmon, shrimp, scallops, rice, vegetables",
+        "price": "26.99",
+        "active": true
+      },
+      {
+        "name": "House Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with tomatoes, cucumbers, carrots, and your choice of dressing.",
+        "ingredients": "Mixed greens, tomatoes, cucumbers, carrots, dressing",
+        "price": "9.99",
+        "active": true
+      },
+      {
+        "name": "Caesar Salad",
+        "categoryName": "Salads",
+        "description": "Crisp romaine lettuce with Parmesan cheese, croutons, and Caesar dressing.",
+        "ingredients": "Romaine lettuce, Parmesan cheese, croutons, Caesar dressing",
+        "price": "10.99",
+        "active": true
+      },
+      {
+        "name": "Mashed Potatoes",
+        "categoryName": "Sides",
+        "description": "Creamy mashed potatoes with gravy.",
+        "ingredients": "Potatoes, gravy",
+        "price": "4.99",
+        "active": true
+      },
+      {
+        "name": "Green Beans",
+        "categoryName": "Sides",
+        "description": "Fresh green beans sautéed with garlic and butter.",
+        "ingredients": "Green beans, garlic, butter",
+        "price": "3.99",
+        "active": true
+      },
+      {
+        "name": "Apple Cobbler",
+        "categoryName": "Desserts",
+        "description": "Warm apple cobbler with a cinnamon crumble topping and vanilla ice cream.",
+        "ingredients": "Apples, cinnamon crumble, vanilla ice cream",
+        "price": "7.99",
+        "active": true
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "categoryName": "Desserts",
+        "description": "Rich chocolate lava cake with a molten chocolate center, served with vanilla ice cream.",
+        "ingredients": "Chocolate cake, chocolate sauce, vanilla ice cream",
+        "price": "8.99",
+        "active": true
+      }
+    ]
+  },
+  {
+    "name": "Reunion Tower Restaurant",
+    "streetAddress": "303 Reunion Blvd",
+    "zipCode": "75207",
+    "cityName": "Dallas",
+    "menuItems": [
+      {
+        "name": "Crab Cakes",
+        "categoryName": "Appetizers",
+        "description": "Crispy crab cakes served with a lemon-herb aioli.",
+        "ingredients": "Crab meat, bread crumbs, lemon-herb aioli",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Spinach and Artichoke Dip",
+        "categoryName": "Appetizers",
+        "description": "Warm and creamy spinach and artichoke dip served with tortilla chips.",
+        "ingredients": "Spinach, artichoke hearts, cream cheese, tortilla chips",
+        "price": "12.99",
+        "active": true
+      },
+      {
+        "name": "Filet Mignon",
+        "categoryName": "Lunch",
+        "description": "Tender filet mignon grilled to perfection and served with your choice of sides.",
+        "ingredients": "Filet mignon, choice of sides",
+        "price": "32.99",
+        "active": true
+      },
+      {
+        "name": "Lobster Bisque",
+        "categoryName": "Lunch",
+        "description": "Creamy lobster bisque served with a side of crusty bread.",
+        "ingredients": "Lobster stock, cream, crusty bread",
+        "price": "18.99",
+        "active": true
+      },
+      {
+        "name": "Roasted Rack of Lamb",
+        "categoryName": "Dinner",
+        "description": "Roasted rack of lamb with a mint-pesto sauce and roasted vegetables.",
+        "ingredients": "Rack of lamb, mint-pesto sauce, roasted vegetables",
+        "price": "38.99",
+        "active": true
+      },
+      {
+        "name": "Scallops and Risotto",
+        "categoryName": "Dinner",
+        "description": "Pan-seared scallops served on a bed of creamy risotto.",
+        "ingredients": "Scallops, risotto, white wine sauce",
+        "price": "34.99",
+        "active": true
+      },
+      {
+        "name": "Mixed Greens Salad",
+        "categoryName": "Salads",
+        "description": "Mixed greens with tomatoes, cucumbers, carrots, and your choice of dressing.",
+        "ingredients": "Mixed greens, tomatoes, cucumbers, carrots, dressing",
+        "price": "13.99",
+        "active": true
+      },
+      {
+        "name": "Caesar Salad",
+        "categoryName": "Salads",
+        "description": "Crisp romaine lettuce with Parmesan cheese, croutons, and Caesar dressing.",
+        "ingredients": "Romaine lettuce, Parmesan cheese, croutons, Caesar dressing",
+        "price": "14.99",
+        "active": true
+      },
+      {
+        "name": "Truffle Fries",
+        "categoryName": "Sides",
+        "description": "Crispy fries tossed in truffle oil and Parmesan cheese.",
+        "ingredients": "Fries, truffle oil, Parmesan cheese",
+        "price": "8.99",
+        "active": true
+      },
+      {
+        "name": "Asparagus",
+        "categoryName": "Sides",
+        "description": "Grilled asparagus spears with lemon and olive oil.",
+        "ingredients": "Asparagus, lemon, olive oil",
+        "price": "6.99",
+        "active": true
+      },
+      {
+        "name": "Chocolate Torte",
+        "categoryName": "Desserts",
+        "description": "Rich chocolate torte with a raspberry coulis.",
+        "ingredients": "Chocolate, raspberry coulis",
+        "price": "9.99",
+        "active": true
+      },
+      {
+        "name": "Cheesecake",
+        "categoryName": "Desserts",
+        "description": "Classic New York-style cheesecake with a graham cracker crust.",
+        "ingredients": "Cream cheese, graham crackers",
+        "price": "8.99",
+        "active": true
+      }
+    ]
+  }
+]

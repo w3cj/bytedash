@@ -1,0 +1,8 @@
+[
+  { "name": "San Francisco", "stateName": "California" },
+  { "name": "New York", "stateName": "New York" },
+  { "name": "Seattle", "stateName": "Washington" },
+  { "name": "Denver", "stateName": "Colorado" },
+  { "name": "Los Angeles", "stateName": "California" },
+  { "name": "Dallas", "stateName": "Texas" }
+]
