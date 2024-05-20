@@ -2,6 +2,12 @@
 
 A restaurant food delivery service database implemented with [drizzle](https://orm.drizzle.team/).
 
+### Drizzle Kit Updates
+
+`drizzle-kit` version `0.21` (released after the YouTube video referencing this repo was published) changed the options in the `drizzle.config.ts` file. This repo has been updated to reflect the changes. See [this issue](https://github.com/w3cj/bytedash/issues/3) for more details.
+
+---
+
 View the dbdocs diagram [here](https://dbdocs.io/w3cj/bytedash?schema=public&view=relationships).
 
 ```mermaid
