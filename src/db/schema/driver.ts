@@ -14,19 +14,19 @@ import { relations } from "drizzle-orm";
 const driver = pgTable(
   "driver",
   {
-    id: serial("id").primaryKey(),
-    carMake: varchar("car_make", { length: 255 }).notNull(),
-    carModel: varchar("car_model", { length: 255 }).notNull(),
-    carYear: integer("car_year").notNull(),
-    userId: integer("user_id")
+    id: serial().primaryKey(),
+    carMake: varchar({ length: 255 }).notNull(),
+    carModel: varchar({ length: 255 }).notNull(),
+    carYear: integer().notNull(),
+    userId: integer()
       .notNull()
       .references(() => user.id),
-    online: boolean("online").notNull(),
-    delivering: boolean("delivering").notNull(),
-    createdAt: timestamp("created_at", { mode: "string" })
+    online: boolean().notNull(),
+    delivering: boolean().notNull(),
+    createdAt: timestamp({ mode: "string" })
       .notNull()
       .defaultNow(),
-    updatedAt: timestamp("updated_at", { mode: "string" })
+    updatedAt: timestamp({ mode: "string" })
       .notNull()
       .defaultNow(),
   }

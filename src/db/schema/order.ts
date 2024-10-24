@@ -3,7 +3,6 @@ import {
   serial,
   integer,
   timestamp,
-  varchar,
   numeric,
   text,
 } from "drizzle-orm/pg-core";
@@ -16,27 +15,27 @@ import address from "./address";
 import orderStatus from "./orderStatus";
 
 const order = pgTable("orders", {
-  id: serial("id").primaryKey(),
-  restaurantId: integer("restaurant_id")
+  id: serial().primaryKey(),
+  restaurantId: integer()
     .notNull()
     .references(() => restaurant.id),
-  estimatedDeliveryTime: timestamp("estimated_delivery_time", {
+  estimatedDeliveryTime: timestamp({
     mode: "string",
   }).notNull(),
-  actualDeliveryTime: timestamp("actual_delivery_time", { mode: "string" }),
-  deliveryAddressId: integer("delivery_address_id")
+  actualDeliveryTime: timestamp({ mode: "string" }),
+  deliveryAddressId: integer()
     .notNull()
     .references(() => address.id),
-  userId: integer("user_id")
+  userId: integer()
     .notNull()
     .references(() => user.id),
-  driverId: integer("driver_id").references(() => driver.id),
-  price: numeric("price", { precision: 12, scale: 2 }).notNull(),
-  discount: numeric("discount", { precision: 12, scale: 2 }).notNull(),
-  finalPrice: numeric("final_price", { precision: 12, scale: 2 }).notNull(),
-  comment: text("comment"),
-  createdAt: timestamp("created_at", { mode: "string" }).notNull().defaultNow(),
-  updatedAt: timestamp("updated_at", { mode: "string" }).notNull().defaultNow(),
+  driverId: integer().references(() => driver.id),
+  price: numeric({ precision: 12, scale: 2 }).notNull(),
+  discount: numeric({ precision: 12, scale: 2 }).notNull(),
+  finalPrice: numeric({ precision: 12, scale: 2 }).notNull(),
+  comment: text(),
+  createdAt: timestamp({ mode: "string" }).notNull().defaultNow(),
+  updatedAt: timestamp({ mode: "string" }).notNull().defaultNow(),
 });
 
 export const orderRelations = relations(order, ({ one, many }) => ({

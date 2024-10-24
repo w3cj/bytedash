@@ -5,6 +5,7 @@ import { ByteDashService } from "./service";
 const app = express();
 
 app.use(express.json());
+// @ts-expect-error
 app.post("/api", rpcHandler(ByteDashService));
 
 app.listen(process.env.PORT || 3000);

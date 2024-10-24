@@ -6,9 +6,9 @@ import { relations } from "drizzle-orm";
 const city = pgTable(
   "city",
   {
-    id: serial("id").primaryKey(),
-    name: varchar("name", { length: 255 }).notNull(),
-    stateId: integer("state_id")
+    id: serial().primaryKey(),
+    name: varchar({ length: 255 }).notNull(),
+    stateId: integer()
       .notNull()
       .references(() => state.id),
   },

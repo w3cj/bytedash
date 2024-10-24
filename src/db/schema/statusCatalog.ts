@@ -8,8 +8,8 @@ import {
 const statusCatalog = pgTable(
   "status_catalog",
   {
-    id: serial("id").primaryKey(),
-    name: varchar("name", { length: 255 }).notNull().unique(),
+    id: serial().primaryKey(),
+    name: varchar({ length: 255 }).notNull().unique(),
   }
 );
 

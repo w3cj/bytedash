@@ -15,17 +15,17 @@ import order from "./order";
 const restaurant = pgTable(
   "restaurant",
   {
-    id: serial("id").primaryKey(),
-    name: varchar("name", { length: 255 }).notNull(),
-    streetAddress: varchar("street_address", { length: 255 }).notNull(),
-    zipCode: varchar("zip_code", { length: 16 }).notNull(),
-    cityId: integer("city_id")
+    id: serial().primaryKey(),
+    name: varchar({ length: 255 }).notNull(),
+    streetAddress: varchar({ length: 255 }).notNull(),
+    zipCode: varchar({ length: 16 }).notNull(),
+    cityId: integer()
       .notNull()
       .references(() => city.id),
-    createdAt: timestamp("created_at", { mode: "string" })
+    createdAt: timestamp({ mode: "string" })
       .notNull()
       .defaultNow(),
-    updatedAt: timestamp("updated_at", { mode: "string" })
+    updatedAt: timestamp({ mode: "string" })
       .notNull()
       .defaultNow(),
   },

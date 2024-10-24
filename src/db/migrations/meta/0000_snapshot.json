@@ -1,10 +1,8 @@
 {
-  "id": "f23ae1c1-f3f5-4d01-b63b-ecf51218de1c",
-  "prevId": "00000000-0000-0000-0000-000000000000",
-  "version": "5",
-  "dialect": "pg",
+  "version": "7",
+  "dialect": "postgresql",
   "tables": {
-    "address": {
+    "public.address": {
       "name": "address",
       "schema": "",
       "columns": {
@@ -70,34 +68,34 @@
         "address_user_id_users_id_fk": {
           "name": "address_user_id_users_id_fk",
           "tableFrom": "address",
-          "tableTo": "users",
           "columnsFrom": [
             "user_id"
           ],
+          "tableTo": "users",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         },
         "address_city_id_city_id_fk": {
           "name": "address_city_id_city_id_fk",
           "tableFrom": "address",
-          "tableTo": "city",
           "columnsFrom": [
             "city_id"
           ],
+          "tableTo": "city",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         }
       },
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
     },
-    "category": {
+    "public.category": {
       "name": "category",
       "schema": "",
       "columns": {
@@ -120,14 +118,14 @@
       "uniqueConstraints": {
         "category_name_unique": {
           "name": "category_name_unique",
-          "nullsNotDistinct": false,
           "columns": [
             "name"
-          ]
+          ],
+          "nullsNotDistinct": false
         }
       }
     },
-    "city": {
+    "public.city": {
       "name": "city",
       "schema": "",
       "columns": {
@@ -155,30 +153,30 @@
         "city_state_id_state_id_fk": {
           "name": "city_state_id_state_id_fk",
           "tableFrom": "city",
-          "tableTo": "state",
           "columnsFrom": [
             "state_id"
           ],
+          "tableTo": "state",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         }
       },
       "compositePrimaryKeys": {},
       "uniqueConstraints": {
         "city_ak_1": {
           "name": "city_ak_1",
-          "nullsNotDistinct": false,
           "columns": [
             "name",
             "state_id"
-          ]
+          ],
+          "nullsNotDistinct": false
         }
       }
     },
-    "comment": {
+    "public.comment": {
       "name": "comment",
       "schema": "",
       "columns": {
@@ -238,34 +236,34 @@
         "comment_order_id_orders_id_fk": {
           "name": "comment_order_id_orders_id_fk",
           "tableFrom": "comment",
-          "tableTo": "orders",
           "columnsFrom": [
             "order_id"
           ],
+          "tableTo": "orders",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         },
         "comment_user_id_users_id_fk": {
           "name": "comment_user_id_users_id_fk",
           "tableFrom": "comment",
-          "tableTo": "users",
           "columnsFrom": [
             "user_id"
           ],
+          "tableTo": "users",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         }
       },
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
     },
-    "driver": {
+    "public.driver": {
       "name": "driver",
       "schema": "",
       "columns": {
@@ -331,21 +329,21 @@
         "driver_user_id_users_id_fk": {
           "name": "driver_user_id_users_id_fk",
           "tableFrom": "driver",
-          "tableTo": "users",
           "columnsFrom": [
             "user_id"
           ],
+          "tableTo": "users",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         }
       },
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
     },
-    "menu_item": {
+    "public.menu_item": {
       "name": "menu_item",
       "schema": "",
       "columns": {
@@ -417,34 +415,34 @@
         "menu_item_restaurant_id_restaurant_id_fk": {
           "name": "menu_item_restaurant_id_restaurant_id_fk",
           "tableFrom": "menu_item",
-          "tableTo": "restaurant",
           "columnsFrom": [
             "restaurant_id"
           ],
+          "tableTo": "restaurant",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         },
         "menu_item_category_id_category_id_fk": {
           "name": "menu_item_category_id_category_id_fk",
           "tableFrom": "menu_item",
-          "tableTo": "category",
           "columnsFrom": [
             "category_id"
           ],
+          "tableTo": "category",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         }
       },
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
     },
-    "orders": {
+    "public.orders": {
       "name": "orders",
       "schema": "",
       "columns": {
@@ -534,60 +532,60 @@
         "orders_restaurant_id_restaurant_id_fk": {
           "name": "orders_restaurant_id_restaurant_id_fk",
           "tableFrom": "orders",
-          "tableTo": "restaurant",
           "columnsFrom": [
             "restaurant_id"
           ],
+          "tableTo": "restaurant",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         },
         "orders_delivery_address_id_address_id_fk": {
           "name": "orders_delivery_address_id_address_id_fk",
           "tableFrom": "orders",
-          "tableTo": "address",
           "columnsFrom": [
             "delivery_address_id"
           ],
+          "tableTo": "address",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         },
         "orders_user_id_users_id_fk": {
           "name": "orders_user_id_users_id_fk",
           "tableFrom": "orders",
-          "tableTo": "users",
           "columnsFrom": [
             "user_id"
           ],
+          "tableTo": "users",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         },
         "orders_driver_id_driver_id_fk": {
           "name": "orders_driver_id_driver_id_fk",
           "tableFrom": "orders",
-          "tableTo": "driver",
           "columnsFrom": [
             "driver_id"
           ],
+          "tableTo": "driver",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         }
       },
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
     },
-    "order_menu_item": {
+    "public.order_menu_item": {
       "name": "order_menu_item",
       "schema": "",
       "columns": {
@@ -639,34 +637,34 @@
         "order_menu_item_order_id_orders_id_fk": {
           "name": "order_menu_item_order_id_orders_id_fk",
           "tableFrom": "order_menu_item",
-          "tableTo": "orders",
           "columnsFrom": [
             "order_id"
           ],
+          "tableTo": "orders",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         },
         "order_menu_item_menu_item_id_menu_item_id_fk": {
           "name": "order_menu_item_menu_item_id_menu_item_id_fk",
           "tableFrom": "order_menu_item",
-          "tableTo": "menu_item",
           "columnsFrom": [
             "menu_item_id"
           ],
+          "tableTo": "menu_item",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         }
       },
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
     },
-    "order_status": {
+    "public.order_status": {
       "name": "order_status",
       "schema": "",
       "columns": {
@@ -701,34 +699,34 @@
         "order_status_order_id_orders_id_fk": {
           "name": "order_status_order_id_orders_id_fk",
           "tableFrom": "order_status",
-          "tableTo": "orders",
           "columnsFrom": [
             "order_id"
           ],
+          "tableTo": "orders",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         },
         "order_status_status_catalog_id_status_catalog_id_fk": {
           "name": "order_status_status_catalog_id_status_catalog_id_fk",
           "tableFrom": "order_status",
-          "tableTo": "status_catalog",
           "columnsFrom": [
             "status_catalog_id"
           ],
+          "tableTo": "status_catalog",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         }
       },
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
     },
-    "restaurant": {
+    "public.restaurant": {
       "name": "restaurant",
       "schema": "",
       "columns": {
@@ -779,32 +777,40 @@
       },
       "indexes": {
         "restaurant_name_index": {
-          "name": "restaurant_name_index",
           "columns": [
-            "name"
+            {
+              "expression": "name",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
           ],
-          "isUnique": false
+          "with": {},
+          "name": "restaurant_name_index",
+          "isUnique": false,
+          "method": "btree",
+          "concurrently": false
         }
       },
       "foreignKeys": {
         "restaurant_city_id_city_id_fk": {
           "name": "restaurant_city_id_city_id_fk",
           "tableFrom": "restaurant",
-          "tableTo": "city",
           "columnsFrom": [
             "city_id"
           ],
+          "tableTo": "city",
           "columnsTo": [
             "id"
           ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
+          "onUpdate": "no action",
+          "onDelete": "no action"
         }
       },
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
     },
-    "state": {
+    "public.state": {
       "name": "state",
       "schema": "",
       "columns": {
@@ -833,21 +839,21 @@
       "uniqueConstraints": {
         "state_name_unique": {
           "name": "state_name_unique",
-          "nullsNotDistinct": false,
           "columns": [
             "name"
-          ]
+          ],
+          "nullsNotDistinct": false
         },
         "state_code_unique": {
           "name": "state_code_unique",
-          "nullsNotDistinct": false,
           "columns": [
             "code"
-          ]
+          ],
+          "nullsNotDistinct": false
         }
       }
     },
-    "status_catalog": {
+    "public.status_catalog": {
       "name": "status_catalog",
       "schema": "",
       "columns": {
@@ -870,14 +876,14 @@
       "uniqueConstraints": {
         "status_catalog_name_unique": {
           "name": "status_catalog_name_unique",
-          "nullsNotDistinct": false,
           "columns": [
             "name"
-          ]
+          ],
+          "nullsNotDistinct": false
         }
       }
     },
-    "users": {
+    "public.users": {
       "name": "users",
       "schema": "",
       "columns": {
@@ -950,17 +956,17 @@
       "uniqueConstraints": {
         "users_contact_phone_unique": {
           "name": "users_contact_phone_unique",
-          "nullsNotDistinct": false,
           "columns": [
             "contact_phone"
-          ]
+          ],
+          "nullsNotDistinct": false
         },
         "users_email_unique": {
           "name": "users_email_unique",
-          "nullsNotDistinct": false,
           "columns": [
             "email"
-          ]
+          ],
+          "nullsNotDistinct": false
         }
       }
     }
@@ -968,8 +974,11 @@
   "enums": {},
   "schemas": {},
   "_meta": {
-    "columns": {},
     "schemas": {},
-    "tables": {}
-  }
+    "tables": {},
+    "columns": {}
+  },
+  "id": "f23ae1c1-f3f5-4d01-b63b-ecf51218de1c",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "sequences": {}
 }

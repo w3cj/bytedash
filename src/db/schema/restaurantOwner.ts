@@ -6,16 +6,16 @@ const restaurantOwner = pgTable(
   "restaurant_owner",
   {
     id: serial("id").primaryKey(),
-    restaurantId: integer("restaurant_id")
+    restaurantId: integer()
       .notNull()
       .references(() => restaurant.id),
-    ownerId: integer("owner_id")
+    ownerId: integer()
       .notNull()
       .references(() => user.id),
   },
   (table) => {
     return {
-      unqiueOwner: unique().on(table.restaurantId, table.ownerId)
+      unqiueOwner: unique("restaurant_owner_restaurant_id_owner_id_unique").on(table.restaurantId, table.ownerId)
     };
   }
 );

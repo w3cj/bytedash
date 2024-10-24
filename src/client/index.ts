@@ -19,11 +19,11 @@ try {
   // const restaurantWithMenuCategory = await client.getRestaurantMenuByCategoryName(3, "Dinner");
   // console.log(restaurantWithMenuCategory);
 
-  // const customers = await client.getRestaurantCustomers(5);
-  // console.log(customers);
+  const customers = await client.getRestaurantCustomers(5);
+  console.log(customers);
 
-  const menuItems = await client.getMenuItemsByCategoryByCity("New York", "Desserts");
-  console.log(menuItems);
+  // const menuItems = await client.getMenuItemsByCategoryByCity("New York", "Desserts");
+  // console.log(menuItems);
 } catch (error) {
   console.error(error);
 }

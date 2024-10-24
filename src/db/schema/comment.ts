@@ -12,18 +12,18 @@ import order from './order';
 import { relations } from "drizzle-orm";
 
 const comment = pgTable("comment", {
-  id: serial("id").primaryKey(),
-  orderId: integer("order_id")
+  id: serial().primaryKey(),
+  orderId: integer()
     .notNull()
     .references(() => order.id),
-  userId: integer("user_id")
+  userId: integer()
     .notNull()
     .references(() => user.id),
-  commentText: text("comment_text").notNull(),
-  isComplaint: boolean("is_complaint").notNull(),
-  isPraise: boolean("is_praise").notNull(),
-  createdAt: timestamp("created_at", { mode: "string" }).notNull().defaultNow(),
-  updatedAt: timestamp("updated_at", { mode: "string" }).notNull().defaultNow(),
+  commentText: text().notNull(),
+  isComplaint: boolean().notNull(),
+  isPraise: boolean().notNull(),
+  createdAt: timestamp({ mode: "string" }).notNull().defaultNow(),
+  updatedAt: timestamp({ mode: "string" }).notNull().defaultNow(),
 });
 
 export const commentRelations = relations(comment, ({ one }) => ({

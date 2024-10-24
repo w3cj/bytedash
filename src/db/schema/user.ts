@@ -11,16 +11,16 @@ import order from "./order";
 import address from "./address";
 
 const user = pgTable("users", {
-  id: serial("id").primaryKey(),
-  name: varchar("name", { length: 255 }).notNull(),
+  id: serial().primaryKey(),
+  name: varchar({ length: 255 }).notNull(),
   phone: varchar("contact_phone", { length: 255 }).notNull().unique(),
-  phoneVerified: boolean("phone_verified").notNull(),
-  email: varchar("email", { length: 255 }).notNull().unique(),
-  emailVerified: boolean("email_verified").notNull(),
-  confirmationCode: varchar("confirmation_code", { length: 255 }),
-  password: varchar("password", { length: 255 }).notNull(),
-  createdAt: timestamp("created_at", { mode: "string" }).notNull().defaultNow(),
-  updatedAt: timestamp("updated_at", { mode: "string" }).notNull().defaultNow(),
+  phoneVerified: boolean().notNull(),
+  email: varchar({ length: 255 }).notNull().unique(),
+  emailVerified: boolean().notNull(),
+  confirmationCode: varchar({ length: 255 }),
+  password: varchar({ length: 255 }).notNull(),
+  createdAt: timestamp({ mode: "string" }).notNull().defaultNow(),
+  updatedAt: timestamp({ mode: "string" }).notNull().defaultNow(),
 });
 
 export const userRelations = relations(user, ({ many }) => ({

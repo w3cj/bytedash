@@ -1,6 +1,6 @@
 import { Table, getTableName, sql } from "drizzle-orm";
 import env from '@/env';
-import { db, connection } from '@/db';
+import { db } from '@/db';
 import * as schema from "@/db/schema";
 import * as seeds from './seeds';
 
@@ -39,4 +39,4 @@ await seeds.restaurant(db);
 await seeds.user(db);
 await seeds.order(db);
 
-await connection.end();
+await db.$client.end();
